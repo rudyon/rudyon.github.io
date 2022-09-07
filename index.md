@@ -1,6 +1,6 @@
 This is meant to be a gathering place for all of my works (which I can remember). The service used for creating this is a blog tool. I am using it because of the markdown support. I will be taking this off of here eventually. But for now it is meant to be a draft for a future portfolio of sorts.
 
-I am an undergraduate student of [linguistics](https://en.wikipedia.org/wiki/Linguistics) at [Dokuz Eylül University](https://global.deu.edu.tr/).
+I will start studying [linguistics](https://en.wikipedia.org/wiki/Linguistics) at [Dokuz Eylül University](https://global.deu.edu.tr/) in October.
 
 My Wikipedia contributions can be found [here](https://en.wikipedia.org/wiki/Special:Contributions/Rudyon).
 
