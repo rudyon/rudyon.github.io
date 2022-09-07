@@ -7,6 +7,7 @@ Shivi is a constructed language. Meant to help me internalize what I learn about
 To notate the phonology of Shivi I am using the [IPA](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet).
 
 Shivi's vowels are:
+
 |          | Front | Center | Back  |
 | -------- |:-----:|:------:|:-----:|
 | **High** | i, iː |        | u, uː |
@@ -14,6 +15,7 @@ Shivi's vowels are:
 | **Low**  |       | a, aː  |       |
 
 Shivi's consonants are:
+
 |               | Labial | Dental | Alveolar | Palatal | Velar |
 | ------------- |:------:|:------:|:--------:|:-------:|:-----:|
 | **Plosive**   |   b    |        |    d     |         |   k   |
