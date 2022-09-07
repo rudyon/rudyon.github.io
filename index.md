@@ -8,4 +8,4 @@ My public programming projects are [kum](https://github.com/rudyon/kum), [startp
 
 I occasionally make some horrible music and put it up on my [SoundCloud](https://soundcloud.com/rudyon) or [Online Sequencer](https://onlinesequencer.net/members/95032).
 
-I wrote an initial draft for a conlang called [Shivi](https://hackmd.io/@Rudyon/B1lJouL2q).
+I wrote an initial draft for a conlang called [Shivi](shivi.md).
