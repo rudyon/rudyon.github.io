@@ -1,0 +1,18 @@
+body {
+  background: black;
+  color: white;
+  font-family: sans-serif;
+  width: 720px;
+}
+
+a {
+	text-decoration: none;
+  	color: white;
+  	box-shadow: 0 -2px 0 0 white inset;
+	transition: 250ms ease-in;
+}
+
+a:hover {
+	box-shadow: 0 -2em 0 0 white inset;
+	color: black;
+}
