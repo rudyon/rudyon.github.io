@@ -9,25 +9,20 @@ p {
 
 blockquote {
 	font-style: italic;
-	border-left: 3px solid black;
+	border-left: 3px solid white;
 	margin: 16px;
 	padding-left: 8px;
 	transition: 150ms ease-in-out;
 }
 
-code {
-	color: white;
-	background-color: darkslategray;
-}
-
 a {
 	color: black;
 	text-decoration: none;
-	box-shadow: 0 -1.5px 0 0 black inset;
+	box-shadow: 0 -1.5px 0 0 white inset;
 	transition: 150ms ease-in-out;
 }
 
 a:hover {
-	color: white;
-	box-shadow: 0 -1em 0 0 black inset;
+	color: black;
+	box-shadow: 0 -1em 0 0 white inset;
 }
