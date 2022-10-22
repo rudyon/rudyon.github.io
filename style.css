@@ -21,7 +21,7 @@ blockquote {
 }
 
 a {
-	color: black;
+	color: white;
 	text-decoration: none;
 	box-shadow: 0 -1.5px 0 0 white inset;
 	transition: 150ms ease-in-out;
