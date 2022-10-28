@@ -9,3 +9,5 @@ My Wikipedia contributions can be found [here](https://en.wikipedia.org/wiki/Spe
 I occasionally make some music and put it up on [SoundCloud](https://soundcloud.com/rudyon) or [Online Sequencer](https://onlinesequencer.net/members/95032).
 
 I wrote an initial draft for a conlang called [Shivi](shivi.html).
+
+![Drawing of a luna moth.](res/luna-moth.png)
