@@ -3,13 +3,14 @@
 	color: white;
 }
 
-body {
-	padding: 8px;
-	margin: 8px;
+header {
+	text-align: center;
 }
 
-p {
-	max-width: 40%;
+body {
+	padding: 8px;
+	margin: auto;
+	max-width: 800px;
 }
 
 blockquote {
