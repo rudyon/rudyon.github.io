@@ -1,6 +1,8 @@
 * {
 	background-color: black;
 	color: white;
+	font-size: medium;
+	font-family: serif;	
 }
 
 header {
@@ -10,7 +12,7 @@ header {
 body {
 	padding: 8px;
 	margin: auto;
-	max-width: 800px;
+	max-width: 750px;
 }
 
 blockquote {
@@ -23,14 +25,13 @@ blockquote {
 
 a {
 	color: white;
-	text-decoration: none;
-	box-shadow: 0 -1.5px 0 0 white inset;
-	transition: 150ms ease-in-out;
+	text-decoration: underline;
 }
 
 a:hover {
 	color: black;
-	box-shadow: 0 -1em 0 0 white inset;
+	background-color: white;
+	text-decoration: none;
 }
 
 table, th, td {
