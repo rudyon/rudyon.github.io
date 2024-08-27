@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script defer data-domain="rudyon.io" src="https://plausible.io/js/script.js"></script>
+    <link rel="icon" href="logo.jpg" type="image/jpeg">    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>sicp racket guide</title>
+</head>
+
+<body>
+    <nav>
+		<a href="index.html">index</a>
+	</nav>
+    <h1>Guide on setting up Racket for SICP</h1>
+<h2>Installation</h2>
+<p>Install Racket for your system of choice using the following instructions.</p>
+<h3>Windows</h3>
+<h4>Manually via the installer executable (Not recommended)</h4>
+<p>Go to <a href="https://download.racket-lang.org">Racket's installer download page</a>. Download the installer and run it. To run Racket from any folder, you need to add Racket to your system's <code>PATH</code> environment variable. Do this through System Properties -&gt; Environment Variables, and add <code>C:\Program Files\Racket</code> to the <code>PATH</code> variable. If you’re confused about how to edit your <code>PATH</code> variable, look up a tutorial or use another method. Ideally, you shouldn't use the installer executable. If you try to use the installer and can’t figure it out yourself, feel free to ping me.</p>
+<h4>Via a Package Manager</h4>
+<h5>Winget</h5>
+<p>Open a terminal and run <code>winget install --id=Racket.Racket -e</code> to install Racket.</p>
+<h4>Chocolatey</h4>
+<p>Open a terminal and run <code>choco install racket</code> to install Racket.</p>
+<h5>Scoop</h5>
+<p>Open a terminal and run <code>scoop bucket add main</code> to add the main bucket to Scoop (which contains Racket). After adding the bucket, run <code>scoop install main/racket</code> to install Racket.</p>
+<h3>Unix</h3>
+<h4>Linux</h4>
+<p>You’ll need root permissions for these commands; prefix them with <code>sudo</code> if necessary.</p>
+<h5>Via a Package Manager</h5>
+<h6>Debian</h6>
+<p>Open a terminal and run <code>apt install racket</code> to install Racket.</p>
+<h6>Fedora</h6>
+<p>Open a terminal and run <code>dnf install racket</code> to install Racket.</p>
+<h6>Arch</h6>
+<p>Open a terminal and run <code>pacman -S racket</code> to install Racket.</p>
+<h5>Other</h5>
+<p>There are too many Linux distributions to cover here. If you’re using a distribution not listed, feel free to ping me.</p>
+<h5>Manually from source</h5>
+<p>If you’re tackling this method, you probably don’t need my help. Follow the official <a href="https://docs.racket-lang.org/racket-build-guide/build.html">guide</a> for detailed instructions. If you get stuck, consider using a package manager instead.</p>
+<h2>Verifying the Installation</h2>
+<p>To verify that Racket installed correctly, open a terminal and run <code>racket --version</code>. If you see a <code>command not found</code> error, the installation didn’t succeed. Feel free to ping me if you need help. If it’s installed correctly, you’ll see the version number.</p>
+<h2>Setting up your Git repository</h2>
+<p>Instructions for setting up your Git repository will be added here soon.</p>
+<h2>Setting up your editor for SICP</h2>
+<p>Pick your text/code editor of choice and follow the instructions for it. If you are using normal Vim or VI then I am sorry but I have no idea how to help you. If you are unsure about which editor to use. Then you probably want to use DrRacket.</p>
+<h3>DrRacket</h3>
+<p>Launch DrRacket then write on the first line <code>#lang sicp</code>. This makes Racket compatible with the book and you will need to do this at the start of every file you make.</p>
+<h3>Neovim</h3>
+<p>Instructions for setting up Neovim will be added here soon.</p>
+<h3>Emacs</h3>
+<p>Instructions for setting up Emacs will be added here soon.</p>
+<h3>VSCode</h3>
+<p>Instructions for setting up VSCode will be added here soon.</p>
+</body>
+
+</html>
