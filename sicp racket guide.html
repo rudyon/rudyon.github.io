@@ -37,24 +37,51 @@
 <p>Open a terminal and run <code>dnf install racket</code> to install Racket.</p>
 <h6>Arch</h6>
 <p>Open a terminal and run <code>pacman -S racket</code> to install Racket.</p>
-<h5>Other</h5>
+<h6>Other</h6>
 <p>There are too many Linux distributions to cover here. If you’re using a distribution not listed, feel free to ping me in the <a href="https://discord.gg/GkHQnHPfPf">Discord server</a>.</p>
 <h5>Manually from source</h5>
 <p>If you’re tackling this method, you probably don’t need my help. Follow the official <a href="https://docs.racket-lang.org/racket-build-guide/build.html">guide</a> for detailed instructions. If you get stuck, consider using a package manager instead.</p>
+<h4>MacOS</h4>
+<h5>Manually via the installer (not recommended)</h5>
+<p>Go to <a href="https://download.racket-lang.org">Racket's installer download page</a>. Download the installer and run it. To run Racket from any folder, you need to add Racket to your system's <code>PATH</code> environment variable. Follow <a href="https://beautifulracket.com/setting-the-mac-os-path.html">this guide</a>. If you get stuck consider using Homebrew instead. You can ping me in the [Discord server]<a href="https://discord.gg/GkHQnHPfPf">Discord server</a>.</p>
+<h5>Via Homebrew</h5>
+<p>If you don't have Homebrew install it using the instructions on the <a href="https://brew.sh">Homebrew site</a>. Then open a terminal and run <code>brew install --cask racket</code> to install Racket.</p>
 <h2>Verifying the Installation</h2>
 <p>To verify that Racket installed correctly, open a terminal and run <code>racket --version</code>. If you see a <code>command not found</code> error, the installation didn’t succeed. Feel free to ping me in the <a href="https://discord.gg/GkHQnHPfPf">Discord server</a> if you need help. If it’s installed correctly, you’ll see the version number.</p>
-<h2>Setting up your Git repository</h2>
-<p>Instructions for setting up your Git repository will be added here soon.</p>
 <h2>Setting up your editor for SICP</h2>
 <p>Pick your text/code editor of choice and follow the instructions for it. If you are using normal Vim or VI then I am sorry but I have no idea how to help you. If you are unsure about which editor to use. Then you probably want to use DrRacket.</p>
 <h3>DrRacket</h3>
-<p>Launch DrRacket then write on the first line <code>#lang sicp</code>. This makes Racket compatible with the book and you will need to do this at the start of every file you make.</p>
+<p>DrRacket should have installed along with Racket. So just launch it.</p>
 <h3>Neovim</h3>
-<p>Instructions for setting up Neovim will be added here soon.</p>
+<p>You want to Install the Conjure plugin. Install it with your package manager using the instructions <a href="https://github.com/Olical/conjure?tab=readme-ov-file#installation">here</a>. If you do not have a package manager setup first set up a package manager. I recommend <a href="https://lazy.folke.io">Lazy</a>. If you get stuck feel free to ping me in the <a href="https://discord.gg/GkHQnHPfPf">Discord server</a>.</p>
 <h3>Emacs</h3>
-<p>Instructions for setting up Emacs will be added here soon.</p>
+<p>I can't really help you here. Since I have never used Emacs. You should probably read the official [Racket documentation]https://docs.racket-lang.org/guide/Emacs.html on using Racket with Emacs though.</p>
 <h3>VSCode</h3>
-<p>Instructions for setting up VSCode will be added here soon.</p>
+<p>Install the <a href="https://marketplace.visualstudio.com/items?itemName=evzen-wybitul.magic-racket">Magic Racket</a> extension and you are good to go.</p>
+<h2>Setting up your Git repository</h2>
+<p>If you are participating in the <a href="https://discord.gg/GkHQnHPfPf">Discord server</a> then you should set up a Git repository to store the solutions to your exercises. This will let you verify that you have completed the book which will grant you the <code>@Knight</code> role on the <a href="https://discord.gg/GkHQnHPfPf">Discord server</a>. If you are not participating in the Discord I still highly recommend you do this. However despite my recommendations this step is still optional.</p>
+<h3>Installing Git</h3>
+<p>First you will need to install Git. I will not be giving instructions on how to install Git. Since I already have given instructions on installing Racket and Git's installation process is very similar. If you are on Windows or MacOS and don't want to use a package manager for some reason go to <a href="https://git-scm.com/downloads">Git's download page</a> to get the installer. If you are using a package manager it should be as simple as typing the same command you used to install Racket but replacing <code>racket</code> with <code>git</code>.</p>
+<h3>Initializing the repository</h3>
+<p>After installing Git you can then setup your Git repository. Open a new folder wherever you want and name it <code>sicp</code>. Open a terminal inside the folder (or go to the folder using <code>cd</code>). Then run <code>git init</code>. This will initiate your Git repository.</p>
+<h3>Creating a Github repository</h3>
+<p>Now that you have your local repository, it's time to push it to GitHub. If you don’t have a GitHub account, create one at <a href="https://github.com/">GitHub.</a>. Once you're signed in, create a new repository named <code>sicp</code>.</p>
+<p>Next, you’ll want to link your local repository to GitHub. In your terminal, run:</p>
+<pre><code class="language-bash">git remote add origin https://github.com/&lt;username&gt;/sicp.git
+git branch -M main
+git push -u origin main
+</code></pre>
+<p>Replace <code>&lt;username&gt;</code> with your GitHub username, obviously.</p>
+<h3>Committing your work</h3>
+<p>Whenever you solve an exercise or make some progress, you should commit your changes. Run the following commands:</p>
+<pre><code class="language-bash">git add .
+git commit -m &quot;Completed Exercise X.Y&quot;
+git push
+</code></pre>
+<p>This way, your work is safely stored online, and you can easily track your progress. Plus, when you finish the book, you’ll have a record of all your hard work.</p>
+<p>Feel free to ping me on the <a href="https://discord.gg/GkHQnHPfPf">Discord server</a> if you run into any issues!</p>
+<h2>Making Racket compatible with SICP</h2>
+<p>Racket is different from SICP's Scheme. However Racket comes with support for SICP out of the box. This is the reason I recommend Racket. Whenever you make a new Racket file put <code>#lang sicp</code> on the first line. This will tell Racket to make itself compatible with the book.</p>
 </body>
 
 </html>
