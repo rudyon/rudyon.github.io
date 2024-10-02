@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>rudyon.io</title><link>https://rudyon.io</link><description>Public facing side of rudyon's notes</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://rudyon.io/logo.jpg</url><title>rudyon.io</title><link>https://rudyon.io</link></image><language>en</language><lastBuildDate>Wed, 02 Oct 2024 11:40:31 +0000</lastBuildDate><item><title>sapiens</title><link>https://rudyon.io/sapiens.html</link><description>&lt;h1&gt;Sapiens by Yuval Noah Harari&lt;/h1&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>rudyon.io</title><link>https://rudyon.io</link><description>Public facing side of rudyon's notes</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://rudyon.io/logo.jpg</url><title>rudyon.io</title><link>https://rudyon.io</link></image><language>en</language><lastBuildDate>Wed, 02 Oct 2024 17:03:30 +0000</lastBuildDate><item><title>sapiens</title><link>https://rudyon.io/sapiens.html</link><description>&lt;h1&gt;Sapiens by Yuval Noah Harari&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;Harari claims that partial scripts cannot be used to write poetry.&lt;/li&gt;
 &lt;li&gt;This seem true enough. But it would be interesting if someone could prove him wrong.&lt;/li&gt;
@@ -10,7 +10,10 @@
 &lt;li&gt;Power leads to resources, leads to research, repeat.&lt;/li&gt;
 &lt;li&gt;The atomic bomb was the only weapon invented, that lead to more peace then war as it's output.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;!in order to understand&lt;/p&gt;</description><guid isPermaLink="false">https://rudyon.io/sapiens.html</guid><pubDate>Tue, 09 Apr 2024 23:25:44 +0000</pubDate></item><item><title>ultralearning</title><link>https://rudyon.io/ultralearning.html</link><description>&lt;h1&gt;Ultralearning by Scott Young&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[I]n order to understand macro-historical processes, we need to examine mass statistics rather then individual stories.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;~ Yuval Noah Harari, &lt;a href="sapiens.md"&gt;Sapiens&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</description><guid isPermaLink="false">https://rudyon.io/sapiens.html</guid><pubDate>Tue, 09 Apr 2024 23:25:44 +0000</pubDate></item><item><title>ultralearning</title><link>https://rudyon.io/ultralearning.html</link><description>&lt;h1&gt;Ultralearning by Scott Young&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;Learning is a skill. You get better at it over time.&lt;/li&gt;
 &lt;li&gt;Reading hypnosis is when one is pantomiming the act of reading while their mind is elsewhere.&lt;/li&gt;
@@ -74,9 +77,19 @@
 &lt;li&gt;Radiocarbon dating that was done prior to the 1980s required grams of carbon.
 Since most sites didn't contain grams of material to be carbon dated. &lt;strong&gt;Prior to 1980s carbon dating should generally be assumed to be highly inaccurate.&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;Radiocarbon dating is problematic in general (See page 99) and should be taken with grains of kosher salt.&lt;/li&gt;
-&lt;li&gt;Adoption of food production is an autocatalytic process.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Adoption of food production is an autocatalytic process.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The &lt;em&gt;Anna Karenina&lt;/em&gt; principle (named after Leo Tolstoy's novel) is as follows:&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;X&lt;/em&gt; &lt;em&gt;Y&lt;/em&gt;'s are all alike; every &lt;em&gt;Z&lt;/em&gt; &lt;em&gt;Y&lt;/em&gt; is &lt;em&gt;Z&lt;/em&gt; in it's own way.&lt;/li&gt;
+&lt;li&gt;Where &lt;em&gt;X&lt;/em&gt; is a positive adjective and &lt;em&gt;Z&lt;/em&gt; is the negative equivalent of that adjective. &lt;em&gt;Y&lt;/em&gt; is a thing that makes sense for &lt;em&gt;X&lt;/em&gt; and &lt;em&gt;Z&lt;/em&gt; to apply to.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;!anna karenina principle&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Happy families are all alike; every unhappy family is unhappy in its own way.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;~ Leo Tolstoy, Anna Karenina&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;Most animals are really bad for domestication. It is a miracle that Eurasia had domesticable animals to begin with. Even with modern technology we have failed to domesticate undomesticated animals.&lt;/li&gt;
 &lt;li&gt;The spreading speed of an infection can be defined as &lt;code&gt;spread = new_infected/original_patient&lt;/code&gt;.&lt;/li&gt;
@@ -109,9 +122,14 @@ Since most sites didn't contain grams of material to be carbon dated. &lt;strong
 &lt;/li&gt;
 &lt;li&gt;No matter how much you hate bureaucracy, it is still a necessity in any complex system.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;!what use one makes of  a historical&lt;/p&gt;
-&lt;p&gt;!we tend to seek&lt;/p&gt;
-&lt;p&gt;!mother of necessity&lt;/p&gt;</description><guid isPermaLink="false">https://rudyon.io/guns germs and steel.html</guid><pubDate>Thu, 25 Jul 2024 17:28:17 +0000</pubDate></item><item><title>plan9</title><link>https://rudyon.io/plan9.html</link><description>&lt;h1&gt;Plan9&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;What use one makes of a historical explanation is a question separate from the explanation itself. Understanding is more often used to alter an outcome than to repeat or perpetuate it.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;~ Jared Diamond, &lt;a href="guns germs and steel.html"&gt;Guns, Germs &amp;amp; Steel&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;We tend to seek easy, single-factor explanations for success. For most important things, though, success actually requires avoiding many separate possible causes of failure.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;~ Jared Diamond, &lt;a href="guns germs and steel.html"&gt;Guns, Germs &amp;amp; Steel&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;[I]nvention is often the mother of necessity, rather then vice versa.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;~ Jared Diamond, &lt;a href="guns germs and steel.html"&gt;Guns, Germs &amp;amp; Steel&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</description><guid isPermaLink="false">https://rudyon.io/guns germs and steel.html</guid><pubDate>Thu, 25 Jul 2024 17:28:17 +0000</pubDate></item><item><title>plan9</title><link>https://rudyon.io/plan9.html</link><description>&lt;h1&gt;Plan9&lt;/h1&gt;
 &lt;p&gt;Plan9 is an operating system that was created at Bell Labs. It is fully its own, it does not use GNU/musl/BSD or anything of that kind. Everything is original. It was written by Rob Pike, Ken Thompson et al. It acknowledges that the world is a network of collected machines. It is not Unix like. But lots of the design is in the same spirit as Unix. It was meant to be descendant of Unix. Plan9 was built with Unix in hindsight. There was a list of complaints that had built up over time for Unix. Plan9 was meant to be a clean slate. There was no promise of compatibility. They were just trying to get it right again. They couldn't do this with Unix itself due to Unix having escaped Bell Labs. It had started being used in universities with computer science classes. Another reason is that Bell Labs wasn't interested in TCP and IP.&lt;/p&gt;
 &lt;p&gt;Plan9 is small. The code can be understood by one single person. Plan9 uses the 9P protocol to expose a file system over a network. The Plan9 kernel exposes its capabilities through files. This makes the kernel a hybrid kernel. The final official release of Plan9 was in 2015. 9Front is a fork of Plan9 that has continued it's development. The name Plan9 is a reference to the movie Plan 9 from Outer Space.&lt;/p&gt;
 &lt;p&gt;Plan9 is an interesting operating system to me. That's why I decided to install it on a virtual machine. I chose 9Front as the distribution to install. Since it comes with some better tools and has extended hardware support (although I won't need that in a vm). The first thing I did after installing Plan9 was to get gfetch using hget. Hget is Plan9's analogous tool to wget on Unix systems. Gfetch is a program similar to neofetch but for Plan9. After getting gfetch I put it inside my bin directory and made it executable. This let's me run it using &lt;code&gt;gfetch&lt;/code&gt; anywhere on the system.&lt;/p&gt;
@@ -128,7 +146,14 @@ After that I wanted to get disco the Discord client for Plan9 working on my syst
 &lt;p&gt;I did buy the drink in the end, but buying it was extraordinarily difficult for me, in a way that it shouldn't have been. But after I bought it, I felt something slightly change in me. Stuff like this has gotten easier ever since. At least buying that specific drink is not a problem for me anymore. And I must say that I buy it on a regular basis now, since I quite enjoy Pipeline Punch.&lt;/p&gt;
 &lt;p&gt;Maybe this sort of experience is caused by my parents being on the overprotective side when I was a child. I have several health problems. I especially have a problem with blood pressure, and my parents always told me to even stay off the coffee. When I was a child I saw it as reasonable but now days, with more knowledge about caffeine and blood pressure. I think they were being overly risk averse.&lt;/p&gt;
 &lt;p&gt;But if you think about it from a logic perspective. If I think of my parents as being risk averse about how they kept warning me about caffeine. Then I should act accordingly and ignore their warnings. So why am I not doing that? Why was this simple act of buying an energy drink so difficult for me? Well I think it boils down to conformity. My parents constantly reminding me over time how I should be consuming less caffeine. Made it so that going against what was known to me as the status quo in my behavior difficult. I mean I am an avid coffee drinker. But it has been difficult to keep that up in the past too. Despite how much I enjoy it and the benefits it provides me.&lt;/p&gt;
-&lt;p&gt;!self-imposed false dilemma&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Every man has in himself the most dangerous traitor of all.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;~ Søren Kierkegaard&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The more I think about it the more I realize that. My own internal chaos is often caused by presenting false dilemmas to myself. Then feeling guilty for being unable to choose. When I didn't have to choose in the first place. I don't know how to stop doing this. But I guess noticing it, is a start.&lt;/p&gt;
+&lt;p&gt;It's like there are actual polar opposites but society has deemed to me that the poles are bigger then they are in reality. I want to dye my hair for example. But I also like reading. According to the preconceptions I have, intellectuals don't dye their hair. This is not true obviously. And it's blatantly obvious that dying your hair has nothing to do with reading. And if I dye my hair I can still enjoy my literature. But for some reason mentally in the background I have always seen these two things as exclusive.&lt;/p&gt;
+&lt;p&gt;The biggest weakness of humanity is to encage itself for absolutely no reason. Most of my life has been spent trying to escape a cage I built for myself. Likely the same for lots of others.&lt;/p&gt;
+&lt;p&gt;I feel guilty for feeling/wanting to reread books to better understand them. There is no guilt in it though. It is actually probably worthy of pride to feel such a way actually. So why does my brain go to guilt instead? And more importantly, how do I stop it from doing that?&lt;/p&gt;
 &lt;p&gt;Well after realizing these things I have tried to be less conforming on purpose. Lots of advice tells people to try harder at things. What I needed was the opposite. I was putting way too much pressure on myself because of how my personality developed as a child. I had way too much anxiety over the smallest things. I needed the opposite advice. I needed to stop trying so hard. I needed to chill. Stuff has been better ever since I realized that.&lt;/p&gt;</description><guid isPermaLink="false">https://rudyon.io/conformity.html</guid><pubDate>Sat, 07 Sep 2024 16:01:01 +0000</pubDate></item><item><title>sicp racket guide</title><link>https://rudyon.io/sicp racket guide.html</link><description>&lt;h1&gt;Guide on setting up Racket for SICP&lt;/h1&gt;
 &lt;h2&gt;Installation&lt;/h2&gt;
 &lt;p&gt;Install Racket for your system of choice using the following instructions.&lt;/p&gt;
