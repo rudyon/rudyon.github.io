@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><id>https://rudyon.io</id><title>rudyon.io</title><updated>2024-10-02T17:03:30.259858+00:00</updated><author><name>rudyon</name><email>keremberket@gmail.com</email></author><link href="https://rudyon.io" rel="alternate"/><generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator><logo>https://rudyon.io/logo.jpg</logo><subtitle>Public facing side of rudyon's notes</subtitle><entry><id>https://rudyon.io/sapiens.html</id><title>sapiens</title><updated>2024-04-09T23:25:44+00:00</updated><content type="html">&lt;h1&gt;Sapiens by Yuval Noah Harari&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><id>https://rudyon.io</id><title>rudyon.io</title><updated>2024-10-13T16:30:55.033601+00:00</updated><author><name>rudyon</name><email>keremberket@gmail.com</email></author><link href="https://rudyon.io" rel="alternate"/><generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator><logo>https://rudyon.io/logo.jpg</logo><subtitle>Public facing side of rudyon's notes</subtitle><entry><id>https://rudyon.io/sapiens.html</id><title>sapiens</title><updated>2024-04-09T23:25:44+00:00</updated><content type="html">&lt;h1&gt;Sapiens by Yuval Noah Harari&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;Harari claims that partial scripts cannot be used to write poetry.&lt;/li&gt;
 &lt;li&gt;This seem true enough. But it would be interesting if someone could prove him wrong.&lt;/li&gt;
@@ -137,8 +137,7 @@ Since most sites didn't contain grams of material to be carbon dated. &lt;strong
 The second thing I decided to do was to modify rio, the Plan9 window manager. To display a wallpaper for me. For this I took a look at the XXIIVV &lt;a href="https://wiki.xxiivv.com/site/rio.html"&gt;wiki page on rio&lt;/a&gt;. Did the patch for wallpaper support using acme. Saved it. And of course went and picked a nice anime wallpaper.&lt;/p&gt;
 &lt;p&gt;&lt;img src="images/Pasted image 20240817154352.png" alt="Pasted image 20240817154352.png"&gt;
 After that I wanted to get disco the Discord client for Plan9 working on my system. For this I would first need go. So I searched around a bit to see how to install go. I found that 9Front has a &lt;a href="https://wiki.9front.org/building-go"&gt;great page&lt;/a&gt; on it. Although I am a bit dumb so it took a bit of a while for me to figure out that when the wiki page said to set the environment variables. The way to set it was to directly type in the environment variable instead of using &lt;code&gt;export&lt;/code&gt; like on Unix systems. This once again reminds me (and should also remind you) that Plan9 is not Unix. Anyway I got it eventually, however it turns out my virtual machine didn't have enough memory to compile go. So I had to shut it down to give it more memory. After that it compiled happily.&lt;/p&gt;
-&lt;p&gt;Then we can move on to disco. Now disco has a problem where it uses &lt;code&gt;go get&lt;/code&gt; to install itself. That command for installing programs has been deprecated in the latest version of go. So I'll need to compile it from source instead.&lt;/p&gt;</content><link href="https://rudyon.io/plan9.html"/><published>2024-08-17T20:22:16.721999+00:00</published></entry><entry><id>https://rudyon.io/sicp.html</id><title>sicp</title><updated>2024-09-05T02:42:49.217000+00:00</updated><content type="html">&lt;p&gt;&lt;img src="images/Pasted image 20240829034006.png" alt="Pasted image 20240829034006.png" width="150" style="float: left; margin: 10px;"&gt;&lt;/p&gt;
-&lt;p&gt;Structure and Interpretation of Computer Programs is an MIT text book, written by Harold Abelson and Gerald Jay Sussman. It is commonly referred to as the "Wizard Book" in hacker circles. It teaches the fundamentals of programming using Scheme a dialect of LISP. The first edition was published in 1984. There is also a Javascript edition which was published in 2022. The book goes from the most fundamentals of programming, all the way to compilers. It is a kind of holy book for programmers.&lt;/p&gt;</content><link href="https://rudyon.io/sicp.html"/><published>2024-09-05T02:42:49.217000+00:00</published></entry><entry><id>https://rudyon.io/conformity.html</id><title>conformity</title><updated>2024-09-07T16:01:01.796999+00:00</updated><content type="html">&lt;h1&gt;Conformity&lt;/h1&gt;
+&lt;p&gt;Then we can move on to disco. Now disco has a problem where it uses &lt;code&gt;go get&lt;/code&gt; to install itself. That command for installing programs has been deprecated in the latest version of go. So I'll need to compile it from source instead.&lt;/p&gt;</content><link href="https://rudyon.io/plan9.html"/><published>2024-08-17T20:22:16.721999+00:00</published></entry><entry><id>https://rudyon.io/conformity.html</id><title>conformity</title><updated>2024-09-07T16:01:01.796999+00:00</updated><content type="html">&lt;h1&gt;Conformity&lt;/h1&gt;
 &lt;p&gt;Conformity has been the source of lots of problem in my life. I actually think it is a major problem with society as a whole. We, and the systems that we have created punish anyone for being authentic. One feels like a puppet in daily life. I think conformity is bad specifically because it accentuates the repression of one's shadow. It makes it so that one hides parts of themselves even harder then they would normally. Creating lots of anxiety. I personally have horrible anxiety over how I am perceived in public.&lt;/p&gt;
 &lt;p&gt;A while ago, I realized I was getting way too much anxiety over seemingly small things, stuff that seemed like I should have been able to just do. I would consider doing things, but I would never actually do them. I would only think about doing them and fantasize about how I would be if I did do them. This happened over super little stuff.&lt;/p&gt;
 &lt;p&gt;For example, I had wanted to try energy drinks for a while. but I never did it because I had never been a person who drank energy drinks before. It might seem super simple to anyone else that one should be able to just go buy an energy drink. But for some odd reason, it was so hard for me to accomplish.&lt;/p&gt;
@@ -154,74 +153,7 @@ After that I wanted to get disco the Discord client for Plan9 working on my syst
 &lt;p&gt;It's like there are actual polar opposites but society has deemed to me that the poles are bigger then they are in reality. I want to dye my hair for example. But I also like reading. According to the preconceptions I have, intellectuals don't dye their hair. This is not true obviously. And it's blatantly obvious that dying your hair has nothing to do with reading. And if I dye my hair I can still enjoy my literature. But for some reason mentally in the background I have always seen these two things as exclusive.&lt;/p&gt;
 &lt;p&gt;The biggest weakness of humanity is to encage itself for absolutely no reason. Most of my life has been spent trying to escape a cage I built for myself. Likely the same for lots of others.&lt;/p&gt;
 &lt;p&gt;I feel guilty for feeling/wanting to reread books to better understand them. There is no guilt in it though. It is actually probably worthy of pride to feel such a way actually. So why does my brain go to guilt instead? And more importantly, how do I stop it from doing that?&lt;/p&gt;
-&lt;p&gt;Well after realizing these things I have tried to be less conforming on purpose. Lots of advice tells people to try harder at things. What I needed was the opposite. I was putting way too much pressure on myself because of how my personality developed as a child. I had way too much anxiety over the smallest things. I needed the opposite advice. I needed to stop trying so hard. I needed to chill. Stuff has been better ever since I realized that.&lt;/p&gt;</content><link href="https://rudyon.io/conformity.html"/><published>2024-09-07T16:01:01.796999+00:00</published></entry><entry><id>https://rudyon.io/sicp racket guide.html</id><title>sicp racket guide</title><updated>2024-09-07T19:13:26.088999+00:00</updated><content type="html">&lt;h1&gt;Guide on setting up Racket for SICP&lt;/h1&gt;
-&lt;h2&gt;Installation&lt;/h2&gt;
-&lt;p&gt;Install Racket for your system of choice using the following instructions.&lt;/p&gt;
-&lt;h3&gt;Windows&lt;/h3&gt;
-&lt;h4&gt;Manually via the installer executable (Not recommended)&lt;/h4&gt;
-&lt;p&gt;Go to &lt;a href="https://download.racket-lang.org"&gt;Racket's installer download page&lt;/a&gt;. Download the installer and run it. To run Racket from any folder, you need to add Racket to your system's &lt;code&gt;PATH&lt;/code&gt; environment variable. Do this through System Properties -&amp;gt; Environment Variables, and add &lt;code&gt;C:\Program Files\Racket&lt;/code&gt; to the &lt;code&gt;PATH&lt;/code&gt; variable. If you’re confused about how to edit your &lt;code&gt;PATH&lt;/code&gt; variable, look up a tutorial or use another method. Ideally, you shouldn't use the installer executable. If you try to use the installer and can’t figure it out yourself, feel free to ping me in the &lt;a href="https://discord.gg/GkHQnHPfPf"&gt;Discord server&lt;/a&gt;.&lt;/p&gt;
-&lt;h4&gt;Via a Package Manager&lt;/h4&gt;
-&lt;h5&gt;Winget&lt;/h5&gt;
-&lt;p&gt;Open a terminal and run &lt;code&gt;winget install --id=Racket.Racket -e&lt;/code&gt; to install Racket.&lt;/p&gt;
-&lt;h4&gt;Chocolatey&lt;/h4&gt;
-&lt;p&gt;Open a terminal and run &lt;code&gt;choco install racket&lt;/code&gt; to install Racket.&lt;/p&gt;
-&lt;h5&gt;Scoop&lt;/h5&gt;
-&lt;p&gt;Open a terminal and run &lt;code&gt;scoop bucket add main&lt;/code&gt; to add the main bucket to Scoop (which contains Racket). After adding the bucket, run &lt;code&gt;scoop install main/racket&lt;/code&gt; to install Racket.&lt;/p&gt;
-&lt;h3&gt;Unix&lt;/h3&gt;
-&lt;h4&gt;Linux&lt;/h4&gt;
-&lt;p&gt;You’ll need root permissions for these commands; prefix them with &lt;code&gt;sudo&lt;/code&gt; if necessary.&lt;/p&gt;
-&lt;h5&gt;Via a Package Manager&lt;/h5&gt;
-&lt;h6&gt;Debian&lt;/h6&gt;
-&lt;p&gt;Open a terminal and run &lt;code&gt;apt install racket&lt;/code&gt; to install Racket.&lt;/p&gt;
-&lt;h6&gt;Fedora&lt;/h6&gt;
-&lt;p&gt;Open a terminal and run &lt;code&gt;dnf install racket&lt;/code&gt; to install Racket.&lt;/p&gt;
-&lt;h6&gt;Arch&lt;/h6&gt;
-&lt;p&gt;Open a terminal and run &lt;code&gt;pacman -S racket&lt;/code&gt; to install Racket.&lt;/p&gt;
-&lt;h6&gt;Other&lt;/h6&gt;
-&lt;p&gt;There are too many Linux distributions to cover here. If you’re using a distribution not listed, feel free to ping me in the &lt;a href="https://discord.gg/GkHQnHPfPf"&gt;Discord server&lt;/a&gt;.&lt;/p&gt;
-&lt;h5&gt;Manually from source&lt;/h5&gt;
-&lt;p&gt;If you’re tackling this method, you probably don’t need my help. Follow the official &lt;a href="https://docs.racket-lang.org/racket-build-guide/build.html"&gt;guide&lt;/a&gt; for detailed instructions. If you get stuck, consider using a package manager instead.&lt;/p&gt;
-&lt;h4&gt;MacOS&lt;/h4&gt;
-&lt;h5&gt;Manually via the installer (not recommended)&lt;/h5&gt;
-&lt;p&gt;Go to &lt;a href="https://download.racket-lang.org"&gt;Racket's installer download page&lt;/a&gt;. Download the installer and run it. To run Racket from any folder, you need to add Racket to your system's &lt;code&gt;PATH&lt;/code&gt; environment variable. Follow &lt;a href="https://beautifulracket.com/setting-the-mac-os-path.html"&gt;this guide&lt;/a&gt;. If you get stuck consider using Homebrew instead. You can ping me in the [Discord server]&lt;a href="https://discord.gg/GkHQnHPfPf"&gt;Discord server&lt;/a&gt;.&lt;/p&gt;
-&lt;h5&gt;Via Homebrew&lt;/h5&gt;
-&lt;p&gt;If you don't have Homebrew install it using the instructions on the &lt;a href="https://brew.sh"&gt;Homebrew site&lt;/a&gt;. Then open a terminal and run &lt;code&gt;brew install --cask racket&lt;/code&gt; to install Racket.&lt;/p&gt;
-&lt;h2&gt;Verifying the Installation&lt;/h2&gt;
-&lt;p&gt;To verify that Racket installed correctly, open a terminal and run &lt;code&gt;racket --version&lt;/code&gt;. If you see a &lt;code&gt;command not found&lt;/code&gt; error, the installation didn’t succeed. Feel free to ping me in the &lt;a href="https://discord.gg/GkHQnHPfPf"&gt;Discord server&lt;/a&gt; if you need help. If it’s installed correctly, you’ll see the version number.&lt;/p&gt;
-&lt;h2&gt;Setting up your editor for SICP&lt;/h2&gt;
-&lt;p&gt;Pick your text/code editor of choice and follow the instructions for it. If you are using normal Vim or VI then I am sorry but I have no idea how to help you. If you are unsure about which editor to use. Then you probably want to use DrRacket.&lt;/p&gt;
-&lt;h3&gt;DrRacket&lt;/h3&gt;
-&lt;p&gt;DrRacket should have installed along with Racket. So just launch it.&lt;/p&gt;
-&lt;h3&gt;Neovim&lt;/h3&gt;
-&lt;p&gt;You want to Install the Conjure plugin. Install it with your package manager using the instructions &lt;a href="https://github.com/Olical/conjure?tab=readme-ov-file#installation"&gt;here&lt;/a&gt;. If you do not have a package manager setup first set up a package manager. I recommend &lt;a href="https://lazy.folke.io"&gt;Lazy&lt;/a&gt;. If you get stuck feel free to ping me in the &lt;a href="https://discord.gg/GkHQnHPfPf"&gt;Discord server&lt;/a&gt;.&lt;/p&gt;
-&lt;h3&gt;Emacs&lt;/h3&gt;
-&lt;p&gt;I can't really help you here. Since I have never used Emacs. You should probably read the official &lt;a href="https://docs.racket-lang.org/guide/Emacs.html"&gt;Racket documentation&lt;/a&gt; on using Racket with Emacs though.&lt;/p&gt;
-&lt;h3&gt;VSCode&lt;/h3&gt;
-&lt;p&gt;Install the &lt;a href="https://marketplace.visualstudio.com/items?itemName=evzen-wybitul.magic-racket"&gt;Magic Racket&lt;/a&gt; extension and you are good to go.&lt;/p&gt;
-&lt;h2&gt;Setting up your Git repository&lt;/h2&gt;
-&lt;p&gt;If you are participating in the &lt;a href="https://discord.gg/GkHQnHPfPf"&gt;Discord server&lt;/a&gt; then you should set up a Git repository to store the solutions to your exercises. This will let you verify that you have completed the book which will grant you the &lt;code&gt;@Knight&lt;/code&gt; role on the &lt;a href="https://discord.gg/GkHQnHPfPf"&gt;Discord server&lt;/a&gt;. If you are not participating in the Discord I still highly recommend you do this. However despite my recommendations this step is still optional.&lt;/p&gt;
-&lt;h3&gt;Installing Git&lt;/h3&gt;
-&lt;p&gt;First you will need to install Git. I will not be giving instructions on how to install Git. Since I already have given instructions on installing Racket and Git's installation process is very similar. If you are on Windows or MacOS and don't want to use a package manager for some reason go to &lt;a href="https://git-scm.com/downloads"&gt;Git's download page&lt;/a&gt; to get the installer. If you are using a package manager it should be as simple as typing the same command you used to install Racket but replacing &lt;code&gt;racket&lt;/code&gt; with &lt;code&gt;git&lt;/code&gt;.&lt;/p&gt;
-&lt;h3&gt;Initializing the repository&lt;/h3&gt;
-&lt;p&gt;After installing Git you can then setup your Git repository. Open a new folder wherever you want and name it &lt;code&gt;sicp&lt;/code&gt;. Open a terminal inside the folder (or go to the folder using &lt;code&gt;cd&lt;/code&gt;). Then run &lt;code&gt;git init&lt;/code&gt;. This will initiate your Git repository.&lt;/p&gt;
-&lt;h3&gt;Creating a Github repository&lt;/h3&gt;
-&lt;p&gt;Now that you have your local repository, it's time to push it to GitHub. If you don’t have a GitHub account, create one at &lt;a href="https://github.com/"&gt;GitHub.&lt;/a&gt;. Once you're signed in, create a new repository named &lt;code&gt;sicp&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;Next, you’ll want to link your local repository to GitHub. In your terminal, run:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="language-bash"&gt;git remote add origin https://github.com/&amp;lt;username&amp;gt;/sicp.git
-git branch -M main
-git push -u origin main
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Replace &lt;code&gt;&amp;lt;username&amp;gt;&lt;/code&gt; with your GitHub username, obviously.&lt;/p&gt;
-&lt;h3&gt;Committing your work&lt;/h3&gt;
-&lt;p&gt;Whenever you solve an exercise or make some progress, you should commit your changes. Run the following commands:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="language-bash"&gt;git add .
-git commit -m &amp;quot;Completed Exercise X.Y&amp;quot;
-git push
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;This way, your work is safely stored online, and you can easily track your progress. Plus, when you finish the book, you’ll have a record of all your hard work.&lt;/p&gt;
-&lt;p&gt;Feel free to ping me on the &lt;a href="https://discord.gg/GkHQnHPfPf"&gt;Discord server&lt;/a&gt; if you run into any issues!&lt;/p&gt;
-&lt;h2&gt;Making Racket compatible with SICP&lt;/h2&gt;
-&lt;p&gt;Racket is different from SICP's Scheme. However Racket comes with support for SICP out of the box. This is the reason I recommend Racket. Whenever you make a new Racket file put &lt;code&gt;#lang sicp&lt;/code&gt; on the first line. This will tell Racket to make itself compatible with the book.&lt;/p&gt;</content><link href="https://rudyon.io/sicp racket guide.html"/><published>2024-09-07T19:13:26.088999+00:00</published></entry><entry><id>https://rudyon.io/shivi.html</id><title>shivi</title><updated>2024-09-15T15:23:47.378999+00:00</updated><content type="html">&lt;h1&gt;Shivi&lt;/h1&gt;
+&lt;p&gt;Well after realizing these things I have tried to be less conforming on purpose. Lots of advice tells people to try harder at things. What I needed was the opposite. I was putting way too much pressure on myself because of how my personality developed as a child. I had way too much anxiety over the smallest things. I needed the opposite advice. I needed to stop trying so hard. I needed to chill. Stuff has been better ever since I realized that.&lt;/p&gt;</content><link href="https://rudyon.io/conformity.html"/><published>2024-09-07T16:01:01.796999+00:00</published></entry><entry><id>https://rudyon.io/shivi.html</id><title>shivi</title><updated>2024-09-15T15:23:47.378999+00:00</updated><content type="html">&lt;h1&gt;Shivi&lt;/h1&gt;
 &lt;p&gt;Shivi is a constructed language. Meant to help me internalize what I learn about linguistics.&lt;/p&gt;
 &lt;h2&gt;Phonology&lt;/h2&gt;
 &lt;p&gt;To notate the phonology of Shivi I am using the &lt;a href="https://en.wikipedia.org/wiki/International_Phonetic_Alphabet"&gt;IPA&lt;/a&gt;.&lt;/p&gt;
@@ -318,4 +250,76 @@ git push
 &lt;td style="text-align: center;"&gt;will&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
-&lt;/table&gt;</content><link href="https://rudyon.io/shivi.html"/><published>2024-09-15T15:23:47.378999+00:00</published></entry></feed>
+&lt;/table&gt;</content><link href="https://rudyon.io/shivi.html"/><published>2024-09-15T15:23:47.378999+00:00</published></entry><entry><id>https://rudyon.io/sicp racket guide.html</id><title>sicp racket guide</title><updated>2024-10-13T08:37:00.378027+00:00</updated><content type="html">&lt;h1&gt;Guide on setting up Racket for SICP&lt;/h1&gt;
+&lt;h2&gt;Installation&lt;/h2&gt;
+&lt;p&gt;Install Racket for your system of choice using the following instructions.&lt;/p&gt;
+&lt;h3&gt;Windows&lt;/h3&gt;
+&lt;h4&gt;Manually via the installer executable (Not recommended)&lt;/h4&gt;
+&lt;p&gt;Go to &lt;a href="https://download.racket-lang.org"&gt;Racket's installer download page&lt;/a&gt;. Download the installer and run it. To run Racket from any folder, you need to add Racket to your system's &lt;code&gt;PATH&lt;/code&gt; environment variable. Do this through System Properties -&amp;gt; Environment Variables, and add &lt;code&gt;C:\Program Files\Racket&lt;/code&gt; to the &lt;code&gt;PATH&lt;/code&gt; variable. If you’re confused about how to edit your &lt;code&gt;PATH&lt;/code&gt; variable, look up a tutorial or use another method. Ideally, you shouldn't use the installer executable. If you try to use the installer and can’t figure it out yourself, feel free to ping me in the &lt;a href="https://discord.gg/GkHQnHPfPf"&gt;Discord server&lt;/a&gt;.&lt;/p&gt;
+&lt;h4&gt;Via a Package Manager&lt;/h4&gt;
+&lt;h5&gt;Winget&lt;/h5&gt;
+&lt;p&gt;Open a terminal and run &lt;code&gt;winget install --id=Racket.Racket -e&lt;/code&gt; to install Racket.&lt;/p&gt;
+&lt;h4&gt;Chocolatey&lt;/h4&gt;
+&lt;p&gt;Open a terminal and run &lt;code&gt;choco install racket&lt;/code&gt; to install Racket.&lt;/p&gt;
+&lt;h5&gt;Scoop&lt;/h5&gt;
+&lt;p&gt;Open a terminal and run &lt;code&gt;scoop bucket add main&lt;/code&gt; to add the main bucket to Scoop (which contains Racket). After adding the bucket, run &lt;code&gt;scoop install main/racket&lt;/code&gt; to install Racket.&lt;/p&gt;
+&lt;h3&gt;Unix&lt;/h3&gt;
+&lt;h4&gt;Linux&lt;/h4&gt;
+&lt;p&gt;You’ll need root permissions for these commands; prefix them with &lt;code&gt;sudo&lt;/code&gt; if necessary.&lt;/p&gt;
+&lt;h5&gt;Via a Package Manager&lt;/h5&gt;
+&lt;h6&gt;Debian&lt;/h6&gt;
+&lt;p&gt;Open a terminal and run &lt;code&gt;apt install racket&lt;/code&gt; to install Racket.&lt;/p&gt;
+&lt;h6&gt;Fedora&lt;/h6&gt;
+&lt;p&gt;Open a terminal and run &lt;code&gt;dnf install racket&lt;/code&gt; to install Racket.&lt;/p&gt;
+&lt;h6&gt;Arch&lt;/h6&gt;
+&lt;p&gt;Open a terminal and run &lt;code&gt;pacman -S racket&lt;/code&gt; to install Racket.&lt;/p&gt;
+&lt;h6&gt;Other&lt;/h6&gt;
+&lt;p&gt;There are too many Linux distributions to cover here. If you’re using a distribution not listed, feel free to ping me in the &lt;a href="https://discord.gg/GkHQnHPfPf"&gt;Discord server&lt;/a&gt;.&lt;/p&gt;
+&lt;h5&gt;Manually from source&lt;/h5&gt;
+&lt;p&gt;If you’re tackling this method, you probably don’t need my help. Follow the official &lt;a href="https://docs.racket-lang.org/racket-build-guide/build.html"&gt;guide&lt;/a&gt; for detailed instructions. If you get stuck, consider using a package manager instead.&lt;/p&gt;
+&lt;h4&gt;MacOS&lt;/h4&gt;
+&lt;h5&gt;Manually via the installer (not recommended)&lt;/h5&gt;
+&lt;p&gt;Go to &lt;a href="https://download.racket-lang.org"&gt;Racket's installer download page&lt;/a&gt;. Download the installer and run it. To run Racket from any folder, you need to add Racket to your system's &lt;code&gt;PATH&lt;/code&gt; environment variable. Follow &lt;a href="https://beautifulracket.com/setting-the-mac-os-path.html"&gt;this guide&lt;/a&gt;. If you get stuck consider using Homebrew instead. You can ping me in the [Discord server]&lt;a href="https://discord.gg/GkHQnHPfPf"&gt;Discord server&lt;/a&gt;.&lt;/p&gt;
+&lt;h5&gt;Via Homebrew&lt;/h5&gt;
+&lt;p&gt;If you don't have Homebrew install it using the instructions on the &lt;a href="https://brew.sh"&gt;Homebrew site&lt;/a&gt;. Then open a terminal and run &lt;code&gt;brew install --cask racket&lt;/code&gt; to install Racket.&lt;/p&gt;
+&lt;h2&gt;Verifying the Installation&lt;/h2&gt;
+&lt;p&gt;To verify that Racket installed correctly, open a terminal and run &lt;code&gt;racket --version&lt;/code&gt;. If you see a &lt;code&gt;command not found&lt;/code&gt; error, the installation didn’t succeed. Feel free to ping me in the &lt;a href="https://discord.gg/GkHQnHPfPf"&gt;Discord server&lt;/a&gt; if you need help. If it’s installed correctly, you’ll see the version number.&lt;/p&gt;
+&lt;h2&gt;Setting up your editor for SICP&lt;/h2&gt;
+&lt;p&gt;Pick your text/code editor of choice and follow the instructions for it. If you are using normal Vim or VI then I am sorry but I have no idea how to help you. If you are unsure about which editor to use. Then you probably want to use DrRacket.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;[ ] add info from this link here https://docs.racket-lang.org/sicp-manual/Installation.html&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;DrRacket&lt;/h3&gt;
+&lt;p&gt;DrRacket should have installed along with Racket. So just launch it.&lt;/p&gt;
+&lt;h3&gt;Neovim&lt;/h3&gt;
+&lt;p&gt;You want to Install the Conjure plugin. Install it with your package manager using the instructions &lt;a href="https://github.com/Olical/conjure?tab=readme-ov-file#installation"&gt;here&lt;/a&gt;. If you do not have a package manager setup first set up a package manager. I recommend &lt;a href="https://lazy.folke.io"&gt;Lazy&lt;/a&gt;. If you get stuck feel free to ping me in the &lt;a href="https://discord.gg/GkHQnHPfPf"&gt;Discord server&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;Emacs&lt;/h3&gt;
+&lt;p&gt;I can't really help you here. Since I have never used Emacs. You should probably read the official &lt;a href="https://docs.racket-lang.org/guide/Emacs.html"&gt;Racket documentation&lt;/a&gt; on using Racket with Emacs though.&lt;/p&gt;
+&lt;h3&gt;VSCode&lt;/h3&gt;
+&lt;p&gt;Install the &lt;a href="https://marketplace.visualstudio.com/items?itemName=evzen-wybitul.magic-racket"&gt;Magic Racket&lt;/a&gt; extension and you are good to go.&lt;/p&gt;
+&lt;h2&gt;Setting up your Git repository&lt;/h2&gt;
+&lt;p&gt;If you are participating in the &lt;a href="https://discord.gg/GkHQnHPfPf"&gt;Discord server&lt;/a&gt; then you should set up a Git repository to store the solutions to your exercises. This will let you verify that you have completed the book which will grant you the &lt;code&gt;@Knight&lt;/code&gt; role on the &lt;a href="https://discord.gg/GkHQnHPfPf"&gt;Discord server&lt;/a&gt;. If you are not participating in the Discord I still highly recommend you do this. However despite my recommendations this step is still optional.&lt;/p&gt;
+&lt;h3&gt;Installing Git&lt;/h3&gt;
+&lt;p&gt;First you will need to install Git. I will not be giving instructions on how to install Git. Since I already have given instructions on installing Racket and Git's installation process is very similar. If you are on Windows or MacOS and don't want to use a package manager for some reason go to &lt;a href="https://git-scm.com/downloads"&gt;Git's download page&lt;/a&gt; to get the installer. If you are using a package manager it should be as simple as typing the same command you used to install Racket but replacing &lt;code&gt;racket&lt;/code&gt; with &lt;code&gt;git&lt;/code&gt;.&lt;/p&gt;
+&lt;h3&gt;Initializing the repository&lt;/h3&gt;
+&lt;p&gt;After installing Git you can then setup your Git repository. Open a new folder wherever you want and name it &lt;code&gt;sicp&lt;/code&gt;. Open a terminal inside the folder (or go to the folder using &lt;code&gt;cd&lt;/code&gt;). Then run &lt;code&gt;git init&lt;/code&gt;. This will initiate your Git repository.&lt;/p&gt;
+&lt;h3&gt;Creating a Github repository&lt;/h3&gt;
+&lt;p&gt;Now that you have your local repository, it's time to push it to GitHub. If you don’t have a GitHub account, create one at &lt;a href="https://github.com/"&gt;GitHub.&lt;/a&gt;. Once you're signed in, create a new repository named &lt;code&gt;sicp&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Next, you’ll want to link your local repository to GitHub. In your terminal, run:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-bash"&gt;git remote add origin https://github.com/&amp;lt;username&amp;gt;/sicp.git
+git branch -M main
+git push -u origin main
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Replace &lt;code&gt;&amp;lt;username&amp;gt;&lt;/code&gt; with your GitHub username, obviously.&lt;/p&gt;
+&lt;h3&gt;Committing your work&lt;/h3&gt;
+&lt;p&gt;Whenever you solve an exercise or make some progress, you should commit your changes. Run the following commands:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-bash"&gt;git add .
+git commit -m &amp;quot;Completed Exercise X.Y&amp;quot;
+git push
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This way, your work is safely stored online, and you can easily track your progress. Plus, when you finish the book, you’ll have a record of all your hard work.&lt;/p&gt;
+&lt;p&gt;Feel free to ping me on the &lt;a href="https://discord.gg/GkHQnHPfPf"&gt;Discord server&lt;/a&gt; if you run into any issues!&lt;/p&gt;
+&lt;h2&gt;Making Racket compatible with SICP&lt;/h2&gt;
+&lt;p&gt;Racket is different from SICP's Scheme. However Racket comes with support for SICP out of the box. This is the reason I recommend Racket. Whenever you make a new Racket file put &lt;code&gt;#lang sicp&lt;/code&gt; on the first line. This will tell Racket to make itself compatible with the book.&lt;/p&gt;</content><link href="https://rudyon.io/sicp racket guide.html"/><published>2024-10-13T08:37:00.378027+00:00</published></entry><entry><id>https://rudyon.io/sicp.html</id><title>sicp</title><updated>2024-10-13T16:19:59.253570+00:00</updated><content type="html">&lt;p&gt;&lt;img src="images/Pasted image 20240829034006.png" alt="Pasted image 20240829034006.png" width="150" style="float: left; margin: 10px;"&gt;&lt;/p&gt;
+&lt;p&gt;Structure and Interpretation of Computer Programs is an MIT text book, written by Harold Abelson and Gerald Jay Sussman. It is commonly referred to as the "Wizard Book" in hacker circles. It teaches the fundamentals of programming using Scheme a dialect of LISP. The first edition was published in 1984. There is also a Javascript edition which was published in 2022. The book goes from the most fundamentals of programming, all the way to compilers. It is a kind of holy book for programmers.&lt;/p&gt;
+&lt;p&gt;I am currently going through the book. You can find my solutions to the exercises &lt;a href="https://github.com/rudyon/sicp"&gt;here&lt;/a&gt;.&lt;/p&gt;</content><link href="https://rudyon.io/sicp.html"/><published>2024-10-13T16:19:59.253570+00:00</published></entry></feed>
