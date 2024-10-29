@@ -274,7 +274,19 @@ fieldset {
 	margin-bottom: 0.5rem;
 	font-weight: 600;
 }
-/* Disable input elements. Since this is supposed to be read only. */
-input {
-	pointer-events: none;
+
+.icon {
+    display: inline-block; /* Makes the SVG behave like text */
+    vertical-align: middle; /* Aligns the SVG with the text */
+    width: 1em; /* Sets the width relative to font size */
+    height: auto; /* Keeps the aspect ratio */
+    margin: 0em 0em 0.2em;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 38em;
+    margin: 0 auto;
+    padding: 1em;
 }
