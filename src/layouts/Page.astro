@@ -17,9 +17,13 @@ import Header from "../components/Header.astro";
     <title>rudyon.io</title>
   </head>
   <body class="bg-dr">
-    <header class="flex p-4">
+    <header class="flex p-4 overflow-x-hidden">
       <Header />
     </header>
+
+    <div class="text-white font-[Ovo] border-amber-300 border-4 rounded-xl p-2 m-4 bg-amber-950">
+      ⚠️ I am working on rebuilding this website. Things may break or content may be missing.
+    </div>
 
     <main class="text-white font-[Ovo]">
       <slot />
