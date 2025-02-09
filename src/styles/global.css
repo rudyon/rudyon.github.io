@@ -1,0 +1,94 @@
+@import url(https://fonts.googleapis.com/css2?family=Ovo&family=Solway&display=swap);
+@import "tailwindcss";
+
+body {
+  max-width: 100ch;
+  margin: 2em auto;
+  line-height: 1.8rem;
+}
+
+.socials-bar > a:hover {
+  filter: invert(53%) sepia(86%) saturate(4703%) hue-rotate(316deg)
+    brightness(100%) contrast(103%);
+  text-decoration: none;
+}
+
+p {
+  font-size: larger;
+  padding: 1rem;
+}
+
+a {
+  @apply text-rose-400 hover:text-rose-300 hover:underline;
+}
+
+.bg-dr {
+  background-color: #120c0e;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
+  font-family: "Solway";
+  padding: 0.5em;
+}
+
+h1 {
+  font-size: 2rem !important;
+}
+
+h2 {
+  font-size: 1.5rem !important;
+}
+
+h3 {
+  font-size: 1rem !important;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+ul,
+ol {
+  margin: 1rem 0;
+  padding-left: 1rem;
+}
+
+li {
+    font-size: large;
+}
+
+th,
+td {
+  border: 1px solid white;
+  padding: 10px;
+  text-align: center;
+}
+
+code {
+  padding: 2px 5px;
+  border-radius: 2%;
+  font-family: "Courier New", monospace; /* TODO: use proper code font */
+}
+
+pre {
+  @apply bg-slate-700;
+  padding: 1em;
+  margin: 1em;
+  border-radius: 2%;
+  overflow-x: auto;
+}
+
+blockquote {
+  border-left: 4px solid #fb7185;
+  background-color: #4e143463;
+  padding-left: 1rem;
+  margin: 1rem;
+  border-radius: 1%;
+}

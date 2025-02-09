@@ -1,0 +1,16 @@
+---
+layout: "../layouts/Page.astro"
+---
+# Plan9
+
+Plan9 is an operating system that was created at Bell Labs. It is fully its own, it does not use GNU/musl/BSD or anything of that kind. Everything is original. It was written by Rob Pike, Ken Thompson et al. It acknowledges that the world is a network of collected machines. It is not Unix like. But lots of the design is in the same spirit as Unix. It was meant to be descendant of Unix. Plan9 was built with Unix in hindsight. There was a list of complaints that had built up over time for Unix. Plan9 was meant to be a clean slate. There was no promise of compatibility. They were just trying to get it right again. They couldn't do this with Unix itself due to Unix having escaped Bell Labs. It had started being used in universities with computer science classes. Another reason is that Bell Labs wasn't interested in TCP and IP.
+
+Plan9 is small. The code can be understood by one single person. Plan9 uses the 9P protocol to expose a file system over a network. The Plan9 kernel exposes its capabilities through files. This makes the kernel a hybrid kernel. The final official release of Plan9 was in 2015. 9Front is a fork of Plan9 that has continued it's development. The name Plan9 is a reference to the movie Plan 9 from Outer Space.
+
+Plan9 is an interesting operating system to me. That's why I decided to install it on a virtual machine. I chose 9Front as the distribution to install. Since it comes with some better tools and has extended hardware support (although I won't need that in a vm). The first thing I did after installing Plan9 was to get gfetch using hget. Hget is Plan9's analogous tool to wget on Unix systems. Gfetch is a program similar to neofetch but for Plan9. After getting gfetch I put it inside my bin directory and made it executable. This let's me run it using `gfetch` anywhere on the system.
+
+The second thing I decided to do was to modify rio, the Plan9 window manager. To display a wallpaper for me. For this I took a look at the XXIIVV [wiki page on rio](https://wiki.xxiivv.com/site/rio.html). Did the patch for wallpaper support using acme. Saved it. And of course went and picked a nice anime wallpaper.
+
+After that I wanted to get disco the Discord client for Plan9 working on my system. For this I would first need go. So I searched around a bit to see how to install go. I found that 9Front has a [great page](https://wiki.9front.org/building-go) on it. Although I am a bit dumb so it took a bit of a while for me to figure out that when the wiki page said to set the environment variables. The way to set it was to directly type in the environment variable instead of using `export` like on Unix systems. This once again reminds me (and should also remind you) that Plan9 is not Unix. Anyway I got it eventually, however it turns out my virtual machine didn't have enough memory to compile go. So I had to shut it down to give it more memory. After that it compiled happily.
+
+Then we can move on to disco. Now disco has a problem where it uses `go get` to install itself. That command for installing programs has been deprecated in the latest version of go. So I'll need to compile it from source instead.
