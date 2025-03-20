@@ -1,7 +1,7 @@
 ---
 layout: '../layouts/Page.astro'
 ---
-# Conformity
+# Lorem
 
 Conformity has been the source of lots of problems in my life. I actually think it is a major problem with society as a whole. We, and the systems that we have created punish anyone for being authentic. One feels like a puppet in daily life. I think conformity is bad specifically because it accentuates the repression of one's shadow. It makes it so that one hides parts of themselves even harder then they would normally. Creating lots of anxiety. I personally have horrible anxiety over how I am perceived in public.
 

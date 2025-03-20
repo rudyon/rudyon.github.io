@@ -2,9 +2,10 @@
 @import "tailwindcss";
 
 body {
-  max-width: 100ch;
+  max-width: 80ch;
   margin: 2em auto;
   line-height: 1.8rem;
+  font-family: "Ovo";
 }
 
 .socials-bar > a:hover {
@@ -14,7 +15,7 @@ body {
 }
 
 p {
-  font-size: larger;
+  font-size: 1.25rem;
   padding: 1rem;
 }
 
@@ -35,15 +36,16 @@ h3 {
 }
 
 h1 {
-  font-size: 2rem !important;
+  font-size: 2rem;
+  text-align: center;
 }
 
 h2 {
-  font-size: 1.5rem !important;
+  font-size: 1.5rem;
 }
 
 h3 {
-  font-size: 1rem !important;
+  font-size: 1rem;
 }
 
 ul {
@@ -57,18 +59,20 @@ ol {
 ul,
 ol {
   margin: 1rem 0;
-  padding-left: 1rem;
+  padding-left: 3rem;
 }
 
 li {
     font-size: large;
 }
 
+table,
 th,
 td {
   border: 1px solid white;
   padding: 10px;
   text-align: center;
+  margin: auto;
 }
 
 code {
