@@ -23,8 +23,25 @@ a {
   @apply text-rose-400 hover:text-rose-300 hover:underline;
 }
 
+.card {
+  color: white;
+}
+
+.card:hover {
+  color: white;
+  text-decoration: none;
+}
+
 .bg-dr {
   background-color: #120c0e;
+}
+
+.bg-card {
+  background-color: #381621a8;
+}
+
+.bg-card:hover {
+  background-color: #70183459;
 }
 
 h1,
@@ -32,7 +49,7 @@ h2,
 h3 {
   font-weight: bold;
   font-family: "Solway";
-  padding: 0.5em;
+  padding: 0.25em;
 }
 
 h1 {
